@@ -9,12 +9,19 @@
 * Install postman and flask framework (RESTful, JWT, limiter)
 * Try two sample of JWT and RESTful
 * Implement a simple framework for ANSer
+
  - two APIs
- -- get 127.0.0.1:5000/n/<addr>   =>   {"address": <addr>,"username":<user>, "coutn":<count>}
- -- get 127.0.0.1:5000/s/<addr>   =>   {"address": <addr>,"username":<user>, "coutn":<count>}
- - three users (accessable only by registered users, no database, store in list)
- -- admin, anser, user
- - show the API access count based on users
+
+-- get 127.0.0.1:5000/n/<addr>   =>   {"address": <addr>,"username":<user>, "coutn":<count>}
+
+-- get 127.0.0.1:5000/s/<addr>   =>   {"address": <addr>,"username":<user>, "coutn":<count>}
+
+- three users (accessable only by registered users, no database, store in list)
+
+-- admin, anser, user
+
+- show the API access count based on users
+
 * try flask limiter samples
 * implement token based limiter
 * logging
